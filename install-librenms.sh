@@ -25,7 +25,7 @@ dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 dnf module reset php -y
 dnf module enable php:remi-8.2 -y
 dnf makecache --refresh
-dnf install -y acl curl fping git graphviz ImageMagick mariadb mariadb-server mtr nmap nginx php-cli php-curl php-fpm php-gd php-gmp php-json php-mbstring php-pdo php-xml php-zip rrdtool net-snmp net-snmp-utils unzip python3-PyMySQL python3-dotenv python3-redis python3-setuptools python3-psutil python3-systemd python3-pip whois traceroute iputils tcpdump vim cronie gcc python3-devel libffi-devel openssl-devel make
+dnf install -y acl curl fping git graphviz ImageMagick mariadb mariadb-server mtr nmap nginx php-cli php-curl php-fpm php-gd php-gmp php-json php-mbstring php-pdo php-mysqlnd php-xml php-zip rrdtool net-snmp net-snmp-utils unzip python3-PyMySQL python3-dotenv python3-redis python3-setuptools python3-psutil python3-systemd python3-pip whois traceroute iputils tcpdump vim cronie gcc python3-devel libffi-devel openssl-devel make
 
 echo
 echo "##############################"
